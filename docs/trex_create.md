@@ -64,7 +64,7 @@ The manifest file is an XML file that contains elements and attributes that desc
 
 - In this file, you need to provide values for a few elements. Some key pieces are:
 - For `<dashboard-extension id=" ">` use reverse domain name notation to uniquely identify the extension (`com.example.extension.hello.demo`)
-- For `<source-location>` make sure that this specifies the URL of your web application. You must use the HTTPS protocol. The exception to this requirement is `localhost`, where you can use HTTP. For example, if you created a `HelloDemo` folder and want to host the file locally on your computer using port 8765, you might use: `http://localhost:8765/HelloDemo/HelloExtension.html`
+- For `<source-location>` make sure that this specifies the URL of your web application. You must use the HTTPS protocol. The exception to this requirement is `localhost`, where you can use HTTP. For example, if you created a `HelloDemo` folder and want to host the file locally on your computer using port 8765, you might use: `https://mitkz.github.io/extensions-api/HelloDemo/HelloExtension.html`
 - The `<min-api-version>` element that specifies the minimum version of the Extensions API library that is required to run the extension.
 - For `<icon>` you must use a Base64-encoded icon. To use the default icon, copy and paste the `<icon>` example here, or copy one of the manifest files (`.trex`) from the samples.
 - Provide the `name` for your extension (`Hello Extensions!`). The manifest file can be localized, so provide the name (or names) in the appropriate `<text>` elements in the `<resources>` section.  
@@ -164,7 +164,7 @@ Your web application must include an HTML page. This page should link to the Ext
 
    ```html
 
-     http://localhost:8765/HelloDemo/HelloExtension.html
+     https://mitkz.github.io/extensions-api/HelloDemo/HelloExtension.html
 
    ```
 

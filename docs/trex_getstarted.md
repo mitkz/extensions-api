@@ -79,7 +79,7 @@ To use the dashboard extension samples, you need to start up a web server on you
     The start commands uses the npm [http-server](https://www.npmjs.com/package/http-server){:target="_blank"} package, a simple HTTP server that uses Node.js for serving static files to the browser.
 
 
-    | **Note:**  The web server just serves the extension samples, which have URLs similar to the following: `http://localhost:8765/Samples/DataSources/datasources.html` This local web server is not intended to serve the Extensions API Help pages. View the Help on GitHub at [https://tableau.github.io/extensions-api](https://tableau.github.io/extensions-api).
+    | **Note:**  The web server just serves the extension samples, which have URLs similar to the following: `https://mitkz.github.io/extensions-api/Samples/DataSources/datasources.html` This local web server is not intended to serve the Extensions API Help pages. View the Help on GitHub at [https://tableau.github.io/extensions-api](https://tableau.github.io/extensions-api).
 
 
 
@@ -139,14 +139,14 @@ Looking at the files that make up an extension will give you an idea of how an e
  
     ```xml
     <source-location>
-      <url>http://localhost:8765/Samples/DataSources/datasources.html</url>
+      <url>https://mitkz.github.io/extensions-api/Samples/DataSources/datasources.html</url>
     </source-loc>
     ```
     If you make a copy of the sample directory so that you can start to modify the code and experiment with the Extensions API, you just need to modify this path so that the URL reflects the new location.
 
     ```xml
     <source-location>
-      <url>http://localhost:8765/_your-new-folder-here_/DataSources/datasources.html</url>
+      <url>https://mitkz.github.io/extensions-api/_your-new-folder-here_/DataSources/datasources.html</url>
     </source-loc>
     ```
 

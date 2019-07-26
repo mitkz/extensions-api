@@ -18,7 +18,7 @@ The Extensions API lets you do more without leaving Tableau. Build Tableau exten
 4. Run `npm start`.
 5. Launch Tableau and use the sample in a dashboard.
 
- >**Note** The web server just serves the extension samples and tutorial, which have URLs similar to the following: `http://localhost:8765/Samples/DataSources/datasources.html`
+ >**Note** The web server just serves the extension samples and tutorial, which have URLs similar to the following: `https://mitkz.github.io/extensions-api/Samples/DataSources/datasources.html`
  >   This local web server is not intended to serve the Extensions API Help pages. 
  >   View the Help on GitHub at [https://tableau.github.io/extensions-api](https://tableau.github.io/extensions-api).
 
