@@ -4,7 +4,7 @@ Now that we have our extension registered with Tableau, we need to add some thin
 
 #### Adding the Tableau Extensions Library
 
-A requirement of every extension is to include the Tableau Extensions JavaScript library with their extension. This library is reponsible for providing the API which your extension will communicate through. We include the library by adding a script tag to our html document with the path to the libary `<script src="/lib/tableau-extensions-0.6.0.js"></script>` (TODO - This will change once we have a CDN).
+A requirement of every extension is to include the Tableau Extensions JavaScript library with their extension. This library is reponsible for providing the API which your extension will communicate through. We include the library by adding a script tag to our html document with the path to the libary `<script src="../../lib/tableau-extensions-0.6.0.js"></script>` (TODO - This will change once we have a CDN).
 
 In Part 0, we included some external JavaScript libraries which will help make writing our extension easier. The JavaScript libraries we included were Bootstrap, DataTables, and JQuery. Data Tables has a convenient download builder [here](https://datatables.net/download/) which we used to bundle all this together.
 
